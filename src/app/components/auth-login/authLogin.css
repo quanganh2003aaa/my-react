@@ -1,0 +1,24 @@
+.auth-login{
+    padding: 20px 0 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.auth-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-main button{
+    background-color: rgba(255, 255, 255, 0.39);
+    color: #fff;
+    border-radius: 10px;
+    padding: 9px 59px;
+    font-size: 17px;
+    border: none;
+    font-weight: 600;
+}
+
+.auth-main button:hover{
+    background-color: rgba(255, 255, 255, 0.57);
+}

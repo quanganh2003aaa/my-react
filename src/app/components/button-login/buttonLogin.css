@@ -1,0 +1,27 @@
+.button-login {
+    padding: 20px 0 45px;
+    margin-bottom: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.button-login button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(129deg, rgb(78, 148, 218) 0%,
+    rgba(50,27,189,0.7030461842940301) 47%,
+    rgba(64,39,190,0.6722338593640581) 77%,
+    rgba(75,48,191,1) 100%);
+    font-weight: 800;
+}
+
+.button-login button:hover{
+    background: linear-gradient(129deg, rgb(67, 140, 211) 0%,
+    rgba(50, 27, 189, 0.78) 47%,
+    rgba(72, 47, 196, 0.92) 77%,
+    rgb(68, 36, 204) 100%);
+}

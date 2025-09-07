@@ -1,0 +1,73 @@
+.form-login {
+
+}
+
+.form-login input{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.39);
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.form-login input::placeholder{
+    color: #fff;
+}
+
+.user-login {
+    padding: 0 0 15px 0;
+}
+
+.password-login {
+    padding: 5px 0 20px 0;
+    position: relative;
+}
+
+.password-login svg{
+    position: absolute;
+    right: 35px;
+    top: 16px;
+    font-size: 20px;
+}
+
+.remember-login {
+    display: flex;
+    padding: 0 25px;
+    font-size: 13px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-login input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.25em;
+    height: 1.25em;
+    border: 1px solid rgba(152, 152, 152, 0.56);
+    border-radius: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 0.5em;
+    background-color: transparent;
+}
+
+.remember-login input[type="checkbox"]:checked {
+    background-color: #5162d1;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.remember-login a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.remember-login a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    cursor: pointer;
+}
